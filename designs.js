@@ -21,7 +21,7 @@ function makeGrid(gridHeight, gridWidth) {
             $('#table'+ i).append('<td></td>');
         }
     }
-    //pick a color
+    //color being added
     $('td').on('click',function(x) {
         color=$('#colorPicker').val();
 		$(this).attr('bgcolor', color);
